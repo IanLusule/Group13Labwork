@@ -1,0 +1,26 @@
+The program declares an array nums with various numbers.
+It also declares an empty array result.
+The for loop iterates over the nums array starting from index 1.
+Inside the loop, it checks if the current element (nums[i]) is greater than 5.
+If the condition is true, it adds the element to the result array using the push() method.
+Finally, the program prints the result array to the console using console.log().
+When you run this code, the output will be an array containing the numbers greater than 5 from the nums array. 
+For example, the output would be [6, 7, 8, 9, 10] since those are the numbers greater than 5 in the given nums array.
+
+// Create an array of numbers
+const nums = [1, 2, 3, , 4, 5, 6, 7, 8, 9, 10];
+
+// Create an empty array to store the result
+const result = [];
+
+// Iterate through each number in the array starting from index 1
+for (let i = 1; i < nums.length; i++) {
+  // Check if the current number is greater than 5
+  if (nums[i] > 5) {
+    // Add the number to the result array
+    result.push(nums[i]);
+  }
+}
+
+// Output the result array
+console.log(result);
